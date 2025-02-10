@@ -36,9 +36,12 @@ header {
     z-index: 2;
     color: #fff;
     text-shadow: 0 1px 3px #0005;
-    top: 38%;
-    right: 28%;
-    font-size: 60px;
+    top: 30%;
+    right: 0;
+    font-size: 5vw;
+    left: 0;
+    width: 100%;
+    text-align: center;
 }
 #quienes-somos {
     margin: 0;
@@ -55,4 +58,34 @@ footer {
     position: relative;
     bottom: 0;
     width: 100%;
+}
+
+
+@media (max-width:1024px) {
+
+
+}
+
+@media (max-width:768px) {
+
+    .carousel-inner h1 {
+        top: 28%;
+    }
+    
+}
+
+@media (max-width:767px) {
+
+    .carousel-inner h1 {
+        font-size: 6vw;
+    }
+    
+}
+
+@media (max-width:480px) {
+
+    .carousel-inner h1 {
+        font-size: 7vw;
+    }
+    
 }
