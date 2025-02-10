@@ -19,11 +19,25 @@
         .skip-link:focus {
             top: 10px;
         }
+        body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        .content {
+            flex: 1;
+        }
+        footer {
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
     </style>
 </head>
 <body class="bg-light">
     <a href="#quienes-somos" class="skip-link">Saltar al contenido</a>
     <header class="bg-dark text-white text-center py-3">
+        <img src="./img/logo-accesibility.png" alt="Logo Accesibilidad" class="mb-2" height="50">
         <h1>Accesibilidad Web</h1>
         <nav>
             <a href="#quienes-somos" class="text-white mx-3">Quiénes Somos</a>
@@ -58,11 +72,12 @@
         </button>
     </div>
     
-    <div class="container py-5">
+    <div class="container py-5 content">
         <section id="quienes-somos" class="text-center mb-5">
             <h2>Quiénes Somos</h2>
-            <img src="imagen.jpg" class="img-fluid rounded" alt="Descripción de la imagen">
-            <p class="mt-3">Somos una empresa comprometida con la accesibilidad web.</p>
+            <img src="./img/logo-accesibility.png" class="img-fluid rounded" alt="Descripción de la imagen">
+            <p class="mt-3">La accesibilidad web es fundamental para garantizar que todas las personas, incluidas aquellas con discapacidades, puedan navegar y utilizar los sitios web sin barreras. Actualmente, un gran porcentaje de usuarios en Internet tienen alguna discapacidad visual, auditiva o motriz, lo que puede dificultar su acceso a contenido y servicios digitales. Al hacer nuestros sitios accesibles, no solo mejoramos la experiencia de todos los usuarios, sino que también ampliamos nuestro alcance y evitamos perder clientes potenciales.</p>
+            <p>Para más información sobre accesibilidad web, visita <a href="https://www.w3.org/WAI/" target="_blank">W3C Web Accessibility Initiative</a>.</p>
         </section>
         
         <section id="contacto" class="text-center">
