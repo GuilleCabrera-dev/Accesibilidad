@@ -16,6 +16,18 @@ body {
     flex-direction: column;
     min-height: 100vh;
 }
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 30px;
+    padding: 0 15px;
+}
+.site-name {
+    font-size: 24px;
+    font-weight: bold;
+}
 .content {
     flex: 1;
 }
