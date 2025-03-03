@@ -69,6 +69,10 @@ footer {
     outline: 2px solid green;
 }
 
+.card {
+    margin: 0 0 30px;
+}
+
 
 @media (max-width:1024px) {
 

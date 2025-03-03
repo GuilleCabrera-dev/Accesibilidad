@@ -69,6 +69,8 @@
 
     <section id="errores-comunes">
         <div class="container">
+            <h2>Errores comunes</h2>
+            <p>Los 10 errores de accesibilidad más comunes que podemos encontrar en el desarrollo web.</p>
             <div class="row">
                 <div class="col-sm-6">
                     <div class="card">
@@ -160,6 +162,20 @@
                         </div>
                     </div>
                 </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="video-description">
+        <div class="container">
+            <h2>Descripción de audio/vídeo</h2>
+            <p>Las etiquetas "<video>" deben contar con descripción de audio a través de la etiqueta "<track>".</p>
+            <div class="video-container">
+                <video controls tabindex="1">
+                    <source src="./img/video-description.webm" type="video/webm">
+                    <source src="./img/video-description.mp4" type="video/mp4">
+                    <track id="audesc" src="./video-description.vtt" kind="descriptions" label="Spanish descriptions" srclang="es-es"></track>
+                </video>
             </div>
         </div>
     </section>
