@@ -171,10 +171,10 @@
             <div class="video-container">
                 <h2>Descripción de audio/vídeo</h2>
                 <p>Las etiquetas "video" deben contar con descripción de audio a través de la etiqueta "track".</p>
-                <video controls tabindex="1">
+                <video controls tabindex="1" controlsList="nodownload" oncontextmenu="return false;">
                     <source src="./img/video-description.webm" type="video/webm">
                     <source src="./img/video-description.mp4" type="video/mp4">
-                    <track id="audesc" src="./video-description.vtt" kind="descriptions" label="Spanish descriptions" srclang="es-es"></track>
+                    <track id="audesc" src="./video-description.vtt" kind="subtitles" label="Spanish" srclang="es" default></track>
                 </video>
             </div>
         </div>
