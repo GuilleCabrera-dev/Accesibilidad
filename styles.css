@@ -63,7 +63,7 @@ footer {
     bottom: 0;
     width: 100%;
 }
-.carousel-indicators {
+.carousel-indicators button:focus {
     outline: 2px solid green;
 }
 
