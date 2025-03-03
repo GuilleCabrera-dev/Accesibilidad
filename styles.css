@@ -73,6 +73,10 @@ footer {
     margin: 0 0 30px;
 }
 
+#video-description {
+    background: #e7eef8;
+}
+
 .video-container {
     width: 100%;
     max-width: 800px;
