@@ -47,9 +47,11 @@ header img {
     width: 100%;
     text-align: center;
 }
-#quienes-somos {
+section {
     margin: 0;
     padding: 50px 0px;
+}
+#quienes-somos, #contacto {
     background: #fff;
 }
 #quienes-somos img {
