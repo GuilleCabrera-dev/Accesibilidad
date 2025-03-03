@@ -63,6 +63,9 @@ footer {
     bottom: 0;
     width: 100%;
 }
+.carousel-indicators {
+    outline: 2px solid green;
+}
 
 
 @media (max-width:1024px) {
